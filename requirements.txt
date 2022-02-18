@@ -10,3 +10,5 @@ pytz==2021.1
 sqlparse==0.4.2
 whitenoise==5.3.0
 requests
+django.utils
+django.views
