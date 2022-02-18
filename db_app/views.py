@@ -21,8 +21,10 @@ def hola(request):
 
 class RequesForms(View):
     def get(self, request):
-        Clist= Model_Forms.objects.all()
-        return JsonResponse(list(Clist.values()), safe=False)
+        return HttpResponse('<h1>siiii</h1>')
+
+        # Clist= Model_Forms.objects.all()
+        # return JsonResponse(list(Clist.values()), safe=False)
 
 # class GetData(viewsets):
 
